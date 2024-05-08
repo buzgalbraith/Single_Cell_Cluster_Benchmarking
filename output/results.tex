@@ -1,0 +1,39 @@
+\begin{tabular}{llrrr}
+\toprule
+ &  & Silhouette & ARI & NMI \\
+Dataset &  Method &  &  &  \\
+\midrule
+\multirow[t]{7}{*}{Chung} &\cellcolor{red!10} PCA + K-Means &\cellcolor{red!10} 0.01 &\cellcolor{red!10} 0.31 &\cellcolor{red!10} 0.43 \\
+ &\cellcolor{red!10} scVI &\cellcolor{red!10} 0.10 &\cellcolor{red!10} 0.27 &\cellcolor{red!10} 0.41 \\
+ &\cellcolor{red!10} scVI-LD &\cellcolor{red!10} 0.09 &\cellcolor{red!10} 0.27 &\cellcolor{red!10} 0.41 \\
+ &\cellcolor{blue!10} CLEAR &\cellcolor{blue!10} -0.01 &\cellcolor{blue!10} 0.22 &\cellcolor{blue!10} 0.30 \\
+ &\cellcolor{blue!10} Contrastive-SC &\cellcolor{blue!10} -0.27 &\cellcolor{blue!10} 0.09 &\cellcolor{blue!10} 0.09 \\
+ &\cellcolor{blue!10} scMAE &\cellcolor{blue!10} 0.19 &\cellcolor{blue!10} 0.48 &\cellcolor{blue!10} 0.65 \\
+ &\cellcolor{green!10} scGNN &\cellcolor{green!10} 0.23 &\cellcolor{green!10} 0.39 &\cellcolor{green!10} 0.57 \\
+\cline{1-5}
+\multirow[t]{7}{*}{Kolodziejczyk} &\cellcolor{red!10} PCA + K-Means &\cellcolor{red!10} 0.04 &\cellcolor{red!10} 0.11 &\cellcolor{red!10} 0.09 \\
+ &\cellcolor{red!10} scVI &\cellcolor{red!10} 0.21 &\cellcolor{red!10} 0.15 &\cellcolor{red!10} 0.23 \\
+ &\cellcolor{red!10} scVI-LD &\cellcolor{red!10} 0.26 &\cellcolor{red!10} 0.24 &\cellcolor{red!10} 0.33 \\
+ &\cellcolor{blue!10} CLEAR &\cellcolor{blue!10} 0.03 &\cellcolor{blue!10} 0.32 &\cellcolor{blue!10} 0.30 \\
+ &\cellcolor{blue!10} Contrastive-SC &\cellcolor{blue!10} 0.05 &\cellcolor{blue!10} 0.09 &\cellcolor{blue!10} 0.11 \\
+ &\cellcolor{blue!10} scMAE &\cellcolor{blue!10} 0.16 &\cellcolor{blue!10} 0.28 &\cellcolor{blue!10} 0.34 \\
+ &\cellcolor{green!10} scGNN &\cellcolor{green!10} 0.22 &\cellcolor{green!10} 0.49 &\cellcolor{green!10} 0.64 \\
+\cline{1-5}
+\multirow[t]{7}{*}{Klein} &\cellcolor{red!10} PCA + K-Means &\cellcolor{red!10} 0.06 &\cellcolor{red!10} 0.42 &\cellcolor{red!10} 0.49 \\
+ &\cellcolor{red!10} scVI &\cellcolor{red!10} 0.17 &\cellcolor{red!10} 0.63 &\cellcolor{red!10} 0.76 \\
+ &\cellcolor{red!10} scVI-LD &\cellcolor{red!10} 0.36 &\cellcolor{red!10} 0.96 &\cellcolor{red!10} 0.94 \\
+ &\cellcolor{blue!10} CLEAR &\cellcolor{blue!10} 0.20 &\cellcolor{blue!10} 0.74 &\cellcolor{blue!10} 0.73 \\
+ &\cellcolor{blue!10} Contrastive-SC &\cellcolor{blue!10} 0.39 &\cellcolor{blue!10} 0.46 &\cellcolor{blue!10} 0.55 \\
+ &\cellcolor{blue!10} scMAE &\cellcolor{blue!10} 0.39 &\cellcolor{blue!10} 0.84 &\cellcolor{blue!10} 0.82 \\
+ &\cellcolor{green!10} scGNN &\cellcolor{green!10} 0.34 &\cellcolor{green!10} 0.95 &\cellcolor{green!10} 0.93 \\
+\cline{1-5}
+\multirow[t]{7}{*}{Zeisel} &\cellcolor{red!10} PCA + K-Means &\cellcolor{red!10} 0.04 &\cellcolor{red!10} 0.34 &\cellcolor{red!10} 0.49 \\
+ &\cellcolor{red!10} scVI &\cellcolor{red!10} 0.18 &\cellcolor{red!10} 0.74 &\cellcolor{red!10} 0.75 \\
+ &\cellcolor{red!10} scVI-LD &\cellcolor{red!10} 0.24 &\cellcolor{red!10} 0.65 &\cellcolor{red!10} 0.67 \\
+ &\cellcolor{blue!10} CLEAR &\cellcolor{blue!10} 0.14 &\cellcolor{blue!10} 0.57 &\cellcolor{blue!10} 0.62 \\
+ &\cellcolor{blue!10} Contrastive-SC &\cellcolor{blue!10} 0.14 &\cellcolor{blue!10} 0.46 &\cellcolor{blue!10} 0.51 \\
+ &\cellcolor{blue!10} scMAE &\cellcolor{blue!10} 0.25 &\cellcolor{blue!10} 0.80 &\cellcolor{blue!10} 0.79 \\
+ &\cellcolor{green!10} scGNN &\cellcolor{green!10} 0.31 &\cellcolor{green!10} 0.50 &\cellcolor{green!10} 0.65 \\
+\cline{1-5}
+\bottomrule
+\end{tabular}
